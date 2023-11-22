@@ -1,1 +1,0 @@
-This is a file that will explain the styling procedure of my webpage
