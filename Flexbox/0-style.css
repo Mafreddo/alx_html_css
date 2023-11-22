@@ -1,0 +1,26 @@
+body{
+    desplay: flex
+}
+flex-item{
+    
+}
+header{
+
+}
+} 
+main{
+article{
+    flex: 1
+    overflow-y:auto
+}
+aside{
+    flex: 2
+    overflow-y:auto
+}
+    desplay: flex
+    flex-direction:row
+    flex: auto
+}
+footer{
+
+}
