@@ -1,1 +1,1 @@
-This is a file that will explain the styling of my webpage
+This is my altermate design
