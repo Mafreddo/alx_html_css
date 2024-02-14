@@ -179,9 +179,13 @@
   
   /* Grid
       ============================= */
-  .row {
+    row{
+      display: flex
+    }
+    
+      row{
   display: flex;
-}
+    }
   ul.row {
     margin: 0;
     padding: 0;
@@ -211,8 +215,8 @@
   }
   
   .nav {
-    margin: 10;
-    padding: 10;
+    margin: 0;
+    padding: 0;
     list-style: none;
     text-align: center;
   }
