@@ -179,10 +179,6 @@
   
   /* Grid
       ============================= */
-    row{
-      display: flex
-    }
-    
       row{
   display: flex;
     }
