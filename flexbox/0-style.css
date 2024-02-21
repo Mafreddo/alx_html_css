@@ -179,9 +179,10 @@
   
   /* Grid
       ============================= */
-  .row {
+      row{
   display: flex;
-}
+  flex-direction: row
+    }
   ul.row {
     margin: 0;
     padding: 0;
@@ -497,4 +498,4 @@
     left: -1rem;
     color: #efeded;
     font-size: 10rem;
-    z
+  }
