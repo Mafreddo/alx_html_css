@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="="IE=edge"
+	<meta name="viewpont" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<form action="index.php" method="POST enctype="multipart/form-data">
+		<fieldset>
+			<legend>Keep in touch</legend>
+		
+
+			<label for="name">name:</label>
+			<input type="text" id="name" minlength="6" required><br>
+
+			<label for="email">email:</label>
+			<input type="text" id="email" minlength="6" required><br>
+
+            <label for="favorite color">Favorite Color</label>
+            <select>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select><br>
+
+            <label for="time">Time:</label>
+			<input type="time" id="password" placeholder="00H00" minlength="8" required><br>
+            <label for="date">Date:</label>
+			<input type="date" id="date" placeholder="DD/MM/YRYR" minlength="12" required><br>
+
+
+            <label for="message">Comment</label>
+			<textarea id="message" row="6" cols="20"></textarea><br> 
+        </fieldset>
+    </form>
+</body>
