@@ -1,0 +1,1 @@
+I am implementing my forst web from scratch through Figma
